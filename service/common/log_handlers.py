@@ -40,3 +40,4 @@ def init_logging(app, logger_name: str):
         handler.setFormatter(formatter)
 
     app.logger.info("Logging handler established")
+    
